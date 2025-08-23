@@ -49,3 +49,6 @@ help:
 > @echo "  make run TARGET=foo    - Run the program"
 > @echo "  make clean             - Remove build artifacts"
 > @echo "  make help              - Show this help"
+
+misc:
+> @echo "Miscellaneous commands:" make all DEBUG=1 TARGET=hello"

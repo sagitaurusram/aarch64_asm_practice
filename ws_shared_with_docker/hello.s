@@ -9,6 +9,6 @@ _start:
     mov x2, #13         // message length
     mov x8, #64         // syscall: write
     svc #0
-mov x8, #93         // syscall: exit
+    mov x8, #93         // syscall: exit
     mov x0, #0
     svc #0
